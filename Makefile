@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -I/usr/local/include
 LDFLAGS = -L/usr/local/lib -L./
-LDLIBS = -lsentencepiece -lrustbert
+LDLIBS =  -lrustbert
 
 SRCS = main.cpp
 OBJS = $(SRCS:.cpp=.o)
